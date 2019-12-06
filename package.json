@@ -1,18 +1,48 @@
 {
-  "name": "rollup-npm",
-  "version": "1.0.0",
-  "description": "rollup-npm",
-  "main": "index.js",
+  "author": "Yo-I",
+  "license": "Proprietary",
+  "name": "tw-antd-components",
+  "version": "1.3.0-alpha.1",
+  "description": "Yo-I Thingswise Antd Web Components library",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "engines": {
+    "node": ">=8"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env CI=1 react-scripts test --env=jsdom",
+    "fix-memory-limit": "cross-env LIMIT=4096 increase-memory-limit",
+    "build": "rollup -c --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jiayangkai/rollup-npm.git"
+  "peerDependencies": {
+    "prop-types": "^15.5.4",
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
   },
-  "author": "jiayangkai",
-  "bugs": {
-    "url": "https://github.com/jiayangkai/rollup-npm/issues"
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@types/lodash": "^4.14.118",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-intl": "^2.3.8",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "rollup": "^1.27.8",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-watch": "^4.3.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.3"
   },
-  "homepage": "https://github.com/jiayangkai/rollup-npm#readme"
+  "files": [
+    "git_version",
+    "src"
+  ],
+  "dependencies": {
+    "axios": "^0.18.1",
+    "lodash": "^4.17.15",
+    "rollup-npm": "git+https://github.com/jiayangkai/rollup-npm.git"
+  }
 }
