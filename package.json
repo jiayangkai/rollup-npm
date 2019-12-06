@@ -1,0 +1,18 @@
+{
+  "name": "rollup-npm",
+  "version": "1.0.0",
+  "description": "rollup-npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiayangkai/rollup-npm.git"
+  },
+  "author": "jiayangkai",
+  "bugs": {
+    "url": "https://github.com/jiayangkai/rollup-npm/issues"
+  },
+  "homepage": "https://github.com/jiayangkai/rollup-npm#readme"
+}
