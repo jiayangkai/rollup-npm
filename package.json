@@ -1,7 +1,5 @@
 {
   "author": "Yo-I",
-  "license": "Proprietary",
-  "name": "tw-antd-components",
   "version": "1.3.0-alpha.1",
   "description": "Yo-I Thingswise Antd Web Components library",
   "main": "src/index.ts",
@@ -43,6 +41,5 @@
   "dependencies": {
     "axios": "^0.18.1",
     "lodash": "^4.17.15",
-    "rollup-npm": "git+https://github.com/jiayangkai/rollup-npm.git"
   }
 }
