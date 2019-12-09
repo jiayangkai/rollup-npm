@@ -1,4 +1,4 @@
-import { AnnotatedWebConfig } from '../../queries';
+import { AnnotatedWebConfig } from '../queries';
 /**
  * 组织或设备名与geo信息对照表数据接口
  *
