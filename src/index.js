@@ -22,7 +22,7 @@
                   React.createElement("code", null, "src/pages/index.js"),
                   " and save to reload."),
               React.createElement("li", null,
-                  React.createElement("a", { href: "https://umijs.org/guide/getting-started.html" }, "Getting Started")))));
+                  React.createElement("a", { href: "https://umijs.org/guide/getting-started.html" }, "hello world")))));
   }
 
   return index;
